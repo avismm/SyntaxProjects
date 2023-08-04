@@ -9,8 +9,9 @@ public class E6ScannerTakingStringsAsInput {
 
         //Applying the char data type
         String name=input.nextLine();
-        System.out.println("Your full name is "+name);
-
-
+        /*note the nextLine takes more than one word. If we use next(), other words will be kept in a buffer.
+        this may cause an issue if the user wanted to enter more than one input of a different data type
+        i.e., the system assigns the next word that was originally stored in the buffer, to the next input variable/*
+        System.out.println("Your full name is "+name);*/
     }
 }

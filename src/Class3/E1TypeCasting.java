@@ -6,7 +6,7 @@ public class E1TypeCasting {
         long age=34;
         //int myAge=age;
 
-        //implicit type casting - means that we are widening the space
+        //implicit/auto/widening type casting - means that we are widening the space
         byte number1=10;
         int number2=number1;
         System.out.println(number2);
