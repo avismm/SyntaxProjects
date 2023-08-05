@@ -1,0 +1,38 @@
+Logical operators
+They will help us to combine multiple conditions on the same line in of statements
+There are three types of logical operators. The final answer from the logical operators is always
+either true or false.
+
+Operator types
+NOT(!)
+OR(||) => pipe signs
+AND (&&)
+
+NOT(!)
+Why we use the NOT operator
+1. It can help us to simplify the logic in some of the cases.
+2. Code readability will increase
+
+OR(||)
+This operator helps to combine multiple conditions in such a way
+that as soon as one condition gets true, the whole operation
+becomes true
+
+Write a program for user to enter his/hers birth month. Based on the month define the season.
+Example: if user is born in March, April, May → season =”Spring”
+if user is born in June, July, August →
+season =”Summer”  etc …
+At the end of the program we should see 1 output as “You were born is season __”.
+
+AND(&&)
+Logical AND operator will help to combine conditions in such
+a way that it will only give us true of all conditions are true
+e.g.,
+true && true && true => true
+true && true && false => false
+false && true && true => false
+
+
+
+
+
