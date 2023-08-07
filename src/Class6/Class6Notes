@@ -1,0 +1,45 @@
+Operators: These are symbols which perform an operation on data
+
+Examples:
+Arithmetic Operators
+These operators help us to perform different mathematical operations.
+Addition => e.g., int a=20,b=50; c=a+b;
+Subtraction => -
+Multiplication => *
+Division => /
+Modulus =>
+
+Short Hand Operators
+These help us to perform mathematical operations  but using a little shorter
+syntax.
+e.g., int a =70;
+add and update the variable: a+=20; => This can also be written as a=a+20;
+subtract and update the variable: -=20; => This can also be written as a=a-20;
+multiply and update variable: a*=4;=> This can also be written as a=a*4;
+divide and update variable: a/=20;=> This can also be written as a=a/20;
+modulus and update variable: a%=20;=> int a=10; a%=20 => 10
+
+Relational operators
+These help us to compare things
+== checks if two values are true
+!= checks if two objects are not equal
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+
+Logical Operators
+    They help us combine multiple conditions
+  ! Not
+  || OR
+  && ANd
+ Increment/decrement operators
+ ++ increases the value of the variable by 1
+ -- decreases the value of the variable by 1
+Note:
+While loop checks the condition first and then executes the code
+do while runs the statement first, and then checks the condition.
+
+
+
+
