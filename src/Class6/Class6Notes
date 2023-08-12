@@ -1,4 +1,5 @@
-Operators: These are symbols which perform an operation on data
+Operators: These are symbols which perform an operation on data.
+The data on which operations is performed are called operands
 
 Examples:
 Arithmetic Operators
@@ -29,7 +30,8 @@ These help us to compare things
 <= less than or equal to
 
 Logical Operators
-    They help us combine multiple conditions
+    They help us combine multiple conditions.
+    There are three main logical operators.
   ! Not
   || OR
   && ANd
@@ -39,6 +41,7 @@ Logical Operators
 Note:
 While loop checks the condition first and then executes the code
 do while runs the statement first, and then checks the condition.
+
 
 
 

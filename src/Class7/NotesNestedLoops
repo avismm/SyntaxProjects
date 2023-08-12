@@ -1,0 +1,11 @@
+Nested Loops
+Nested loops are loops inside another loops. Just like
+if statements.
+Why we need them
+To solve complex problems that require accessing nested data.
+There is no limit on how far we can nest the loops.
+
+Arrays
+These are data structures that help to store multiple items in a single
+variable and we can use indexes to access the values.
+

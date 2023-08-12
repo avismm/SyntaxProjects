@@ -18,6 +18,12 @@ public class HomeWork3Loops {
         System.out.println();
         for (int k = 21; k <=50;k+=2) {
              System.out.print(k+" ");
+             String a = "ant";
+             String b ="cow";
+
+             if(a!=b){
+
+             }
 
         }
     }
