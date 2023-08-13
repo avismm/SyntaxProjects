@@ -1,6 +1,6 @@
 package Class7;
 
-public class Task6ArrayLargestNumber {
+public class HomeWork6ArrayLargestNumber {
     //From an array of integer elements find the largest number.
     public static void main(String[] args) {
         int [] numbers={1,3,10,5,6,7,8};

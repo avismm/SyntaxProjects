@@ -1,7 +1,7 @@
 package Class7;
 /*Create an array on integers and calculate the sum of
   all elements in an array*/
-public class Task5ArrayOfIntegers {
+public class HomeWork5ArrayOfIntegers {
     public static void main(String[] args) {
         int [] numbers={1,3,4,5,6,7,8};
         int num=0;
