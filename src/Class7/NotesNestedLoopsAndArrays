@@ -8,4 +8,9 @@ There is no limit on how far we can nest the loops.
 Arrays
 These are data structures that help to store multiple items in a single
 variable and we can use indexes to access the values.
+Arrays also help us to manipulate large amounts of data easily with 
+the help of loops. 
+Syntax
+dataType[] arrayName={element1,element,element3,....}
+dataType[] arrayName= new dataType[arraySize]
 

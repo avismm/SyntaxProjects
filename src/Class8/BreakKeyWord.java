@@ -1,6 +1,6 @@
 package Class8;
 
-public class Break {
+public class BreakKeyWord {
     public static void main(String[] args) {
         //break keyword will break out of the loop
         for (int i = 0; i < 10; i++) {

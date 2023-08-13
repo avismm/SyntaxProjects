@@ -1,7 +1,7 @@
 package Class8;
 
 import java.util.ArrayList;
-/*This is s resizable(dynamic array). It grows in size to accommodate new
+/*This is a resizable(dynamic array). It grows in size to accommodate new
 elements and shrinks the size when elements are removed.*/
 
 public class ForEachLoopArrayList {
@@ -18,7 +18,7 @@ public class ForEachLoopArrayList {
         animals.add("donkey");
         animals.add("lion");
         animals.add("deer");
-for(String i :animals){ // This is read as: For every String in an array of animals.
+for(String i:animals){ // This is read as: For every String i in an array of animals.
     System.out.println(i);
 }
     }
