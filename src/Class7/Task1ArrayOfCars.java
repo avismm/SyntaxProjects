@@ -1,5 +1,6 @@
 package Class7;
-
+/*Create an array of cars and store 6 elements into it.
+  Using 2 different loops print all values from the array.*/
 public class Task1ArrayOfCars {
     public static void main(String[] args) {
         String [] cars={"BMW","Toyota", "Nissan","Benz","Tesla","Range Rover"};
