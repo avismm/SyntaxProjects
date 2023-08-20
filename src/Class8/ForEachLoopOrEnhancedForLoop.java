@@ -1,6 +1,6 @@
 package Class8;
 
-public class ForEachLoop {
+public class ForEachLoopOrEnhancedForLoop {
     //This loop is a traversing technique to iterate through the
     //elements in an array/collection(array list)
     //it takes lesser steps in coding and is more readable,
