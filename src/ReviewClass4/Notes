@@ -1,0 +1,9 @@
+Enhanced for loop is used mostly to iterate through an array
+or a collection of variables.
+
+If the no of iterations is not known, we use the
+for loop.
+
+if the number of iterations is not known, we go for the
+do while or the while loop. Do while loop allows us
+to execute the block of code at least once.

@@ -1,5 +1,7 @@
 package Class93DArrays;
 
+import java.util.Arrays;
+
 public class E113DSArraysPrintUsingNextedForLoop {
     public static void main(String[] args) {
 
@@ -16,7 +18,7 @@ public class E113DSArraysPrintUsingNextedForLoop {
 
         }
         System.out.println();
-        //System.out.println(Arrays.deepToString(cars));// for printing 2D arrays
+        System.out.println(Arrays.deepToString(cars));// for printing 2D arrays
     }
 
 }
