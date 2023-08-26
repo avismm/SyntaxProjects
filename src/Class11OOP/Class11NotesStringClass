@@ -1,0 +1,9 @@
+String Class
+
+String class is designed to store symbols, letters, numbers, special characters, etc
+in form of a group. Examples of methods from the string class include
+length()
+startsWith()
+endsWith() => This returns a boolean value
+contains()
+
