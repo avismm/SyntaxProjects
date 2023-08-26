@@ -4,6 +4,14 @@ package Class11OOP;
 
 public class T8OtherOtherStringMethods {
     public static void main(String[] args) {
+        String word1="aba";
+        String word2="";
+        for (int i = word1.length()-1; i >=0 ; i--) {
+            word2=word2+word1.charAt(i);
+
+        }
+        System.out.println(word2);
+        System.out.println("Is palindrome?: "+ word2.equals(word1));
 
     }
 

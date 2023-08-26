@@ -16,27 +16,29 @@ import java.util.Scanner;
         Dad’s first name? Daniel
         Boy or Girl? girl
         Suggested baby name: MAIEL*/
-public class T3StringMethods {
+public class T3StringMethodsSuggestingBabyName {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter Mum's first Name");
         String mumFirstName = input.nextLine();
         System.out.println("Please enter Dad's first Name");
         String dadFirstName = input.nextLine();
-        System.out.println("Boy or Girl?");
+        System.out.println("boy or girl?");
         String boyGirl = input.nextLine();
-        String babyName1 = "";
-        String babyName2 = "";
+        String babySubName1 = "";
+        String babySubName2 = "";
 
         if (boyGirl.equals("boy")) {
-            babyName1 = dadFirstName.substring(0, 3);
-            babyName2 = mumFirstName.substring(0, 2);
-            System.out.println(babyName1 + babyName2);
+            babySubName1 = dadFirstName.substring(0, 3);
+            babySubName2 = mumFirstName.substring(0, 2);
+            System.out.println(babySubName1 + babySubName2);
 
         } else if (boyGirl.equals("girl")) {
-            babyName1 = mumFirstName.substring(0, 3);
-            babyName2 = dadFirstName.substring(0, 2);
-            System.out.println("The suggested baby name is "+ babyName1 + babyName2);
+            babySubName1 = mumFirstName.substring(0, 3);
+            babySubName2 = dadFirstName.substring(0, 2);
+            System.out.println("The suggested baby name is "+ babySubName1 + babySubName2);
+        }else {
+            System.out.println("You did not provide valid input");
         }
 
     }
