@@ -1,0 +1,23 @@
+Methods/functions/behaviours/routines
+There are two types of methods.
+1. Methods that do not return anything
+2. Methods that can return any data type.
+
+Syntax:
+dataType methodName(dataType nameOfParameter,dataType nameOfParameter)
+This is where we write the logic
+return result if method is not void
+
+Int add(int num1, int num2){
+int result=num1+num2;
+return result;
+}
+int ==> This will be the return type of the method
+add ==> This is the name of the method
+(int num1, int num2) ==> These are called parameters
+{} ==> These currey brackets represent the body of the method
+
+
+We will go over stringBuilder Vs String
+
+
