@@ -7,3 +7,9 @@ startsWith()
 endsWith() => This returns a boolean value
 contains()
 
+Methods
+Public methods are those that can be accessed outside the class
+Void methods are those that do not return a value. Return type is void.
+Static keyword allows us to call the methods from inside the main method.
+
+
