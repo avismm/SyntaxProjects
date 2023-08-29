@@ -8,7 +8,7 @@ public class T4ReverseStringObjects {
         T4ReverseString obj=new T4ReverseString();
 
         //Invoking method using the object
-       obj.palindrome("aba");
+       obj.palindrome("madam");
 
     }
 

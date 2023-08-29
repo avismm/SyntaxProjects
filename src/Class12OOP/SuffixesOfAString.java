@@ -2,7 +2,10 @@ package Class12OOP;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/*
+suffixes are all possible sub-strings that can be derived from a particular string
+starting from the end of a string
+ */
 public class SuffixesOfAString {
 
     //declaration of the method getSuffixes whose argument is the variable text of data type String.
