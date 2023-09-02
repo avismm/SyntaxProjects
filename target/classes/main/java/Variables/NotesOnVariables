@@ -1,0 +1,17 @@
+Instance Variables:
+These are declared inside the class and not inside method
+
+Properties of instance variables
+=> They always get a default value
+=> Cannot be reinitialized directly within a class
+
+Static Variables:
+Are declared within class using static keyword
+Properties of static variable
+Only one copy is created per class
+we don't need an object to access the static variable
+
+Local variables:
+These are declared in methods or method parameters.
+Properties of local variables.
+ Cannot be accessed outside methods.

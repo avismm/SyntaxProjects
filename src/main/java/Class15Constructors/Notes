@@ -1,0 +1,14 @@
+Constructors
+99% of the times, constructors are public (they use public access modifier).
+Constructors help us to build objects from classes easily.
+They help us to give initial values to the instance fields.
+The name of the constructor myst be the same as the class name.
+
+Constructors don't have any return type. Most constructors are public.
+Other than initializing the values, we can have whatever type of code
+inside the constructor that we like for example, calling methods, writing
+if-else etc.
+ Class ClassName{
+ String name
+
+ }

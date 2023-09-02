@@ -1,0 +1,56 @@
+Types of variables:
+There are three types of variables. Local, instance, static.
+These variables types help us to understand the scope of data types.
+
+Local variables are declared inside a block or code (e.g., loops, if statements, methods).
+
+upside:
+They occupy the memory for shortest period of time. As soon as java is done
+executing the block of code, the variables are removed from memory.
+Note: Use the debug feature to understand the behavior of the variable.
+The code that we write using local variables is easier to debug.
+
+Downside:
+    They can only be accessed within the block of code where they are declared.
+
+Instance variables:
+These are declared inside a class and outside of a block (i.e.,
+they are declared outside of blocks such as if else, switch statements,for loops, etc).
+
+Upside:
+They always get a default value.
+They can be accessed anywhere within the class regardless of when they were created within your block of code (they are bidirectional).
+
+Downside:
+Cannot be reinitialized inside the class.
+They stay in memory upon creation of the object even though when they have not been used.
+Useful Tip: When debugging, use the step into button to see what happens inside a given method.
+
+Local Vs instance
+Whenever possible, go and create local variables.
+Only go with instance variables when the problem cannot be resolved with
+local variables.
+
+Static variables:
+These are declared within the class and we use the static key word.
+
+Upside:
+Static variables can be accessed by simply writing the name of the class,
+then a dot and the variable name. We don't need to createThey are universal when it comes to
+scope and accessibility.
+Only one copy is created per class and accessible across multiple objects.
+
+Downside:
+Static variables occupy the memory for the longest of all.
+They are created even though you don't create any object
+of the class.
+
+
+Uses of variables
+Local:
+    Whenever we are solving any problem many times, we need local variables
+    to temporarily store data. In all those cases, you should be going with
+    local variables.
+
+
+

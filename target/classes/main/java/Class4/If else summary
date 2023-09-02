@@ -1,0 +1,5 @@
+if else statements help us to write code that can take a decision based on a value and can execute selective code.
+
+Debugging is the process of removing errors in the code
+We use the step over function in the debug section to go to the next step
+During debugging, the greyed out part will not be executed

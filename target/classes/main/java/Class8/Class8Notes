@@ -1,0 +1,17 @@
+Enhanced for loop is much easier to understand
+
+Syntax:
+for(dataType anyVariableName:nameOfDataStructure)
+
+Limitations:
+1) Cannot be used for updating the elements
+2) Access the elements in a reverse order
+
+Break keyword
+We use break keyword in switch statement or loops
+when we want to terminate the loops prematurely.
+Using the break can save allot of compute resources
+
+Continue keyword:
+This is used to skip the code for the loop
+once we hit the key word and java ignores the rest of the code and jumps to the next iteration

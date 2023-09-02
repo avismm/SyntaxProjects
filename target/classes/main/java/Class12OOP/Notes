@@ -1,0 +1,46 @@
+Methods/functions/behaviours/routines
+There are two types of methods.
+1. Methods that do not return anything
+2. Methods that can return any data type.
+
+Syntax:
+dataType methodName(dataType nameOfParameter,dataType nameOfParameter)
+This is where we write the logic
+return result if method is not void
+
+Int add(int num1, int num2){
+int result=num1+num2;
+return result;
+}
+int ==> This will be the return type of the method
+add ==> This is the name of the method
+(int num1, int num2) ==> These are called parameters
+{} ==> These currey brackets represent the body of the method
+
+Return Keyword
+Return is a keyword that is be used to return a value from a method. One the return statement is executed, we exit the method.
+
+We will go over String Vs stringBuilder Vs StringBuffer
+String => Can be a literal or object
+StringBuffer and StringBuilder ==> These are classes which are used to perform certain operations on Strings.
+e.g., StringBuffer sbf=new StringBuffer("Avis") => We are creating a new object sbf of the StringBuffer class and passing a parameter Avis to the class.
+
+Differences:
+String                     |        StringBuffer                            |     StringBuilder
+Stored on Heap
+or String Constant                 Stored on heap                                 Stored On Heap
+Pool
+
+Immutable                            Mutable                                        Mutable
+(Unless a new object was created,
+Java will point to the same string
+in memory)
+Synchronized                        Synchronized                                   Non Synchronized
+(multiple threads can access
+the String in memory)
+Thread Safe                          Thread Safe                                    Non Thread Safe
+less efficient (involves
+allot of locking and unlocking
+of the object)                       efficient                                      More efficient
+
+

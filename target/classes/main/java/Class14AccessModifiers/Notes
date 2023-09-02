@@ -1,0 +1,30 @@
+Access modifiers are keywords that are used in OOP to specify the
+accessibility of methods, classes, constructors and other members of the class.
+
+Four types of access modifiers
+
+default: Gives access to everything in that package and not across packages,
+
+public => Everyone can use the method, class, variable, etc. Accessed
+everywhere across packages.
+
+private => The object is not accessible outside the current class
+
+protected => Allows access to protected objects within the same package.
+The keyword private only lets other packages know about the data
+inside of it if it is related to the original class from which the object
+with a private identifier was created, e.g., where a class (subclass)
+extends the original class. Syntax: classA extends classB
+
+
+Private is the most restricted. The next one is protected.
+
+
+Best Practice
+Instance Variables/fields/properties/attributes are
+private 99% of the time.
+99% of the time, constructors are public
+90% of the times, methods are public 8% private and rest of the
+time, they are default.
+
+
