@@ -1,0 +1,33 @@
+OOP review class
+OOP is simply a way of writing code by following some rules.
+There are four main pillars of OOP
+
+1) Inheritance => a mechanism that allows a class to inherit properties of another one.
+2) Polymorphism
+3) Abstraction ==> Used where there is no complete knowledge of something and you write partial code.
+4) Encapsulation
+
+Why we learn OOP
+1) Code is reusable
+2)Easier to write large code
+3) Sharing code with others becomes easier
+4)Security of the code is increased
+5) Changing code becomes easier.
+
+Object:
+An object is something that we can physically touch.
+We can easily represent these objects inside our computers by telling a computer
+how an object looks like and how it behaves.
+
+Class:
+This is a blueprint/design/map that we use to create objects.
+
+String Class:
+This is used to store and manipulate text based data.
+
+Creating objects from String class.
+1) length(), 2)isEmpty();
+
+
+
+

@@ -1,0 +1,20 @@
+Constructors:
+Constructors help us create the objects from the classes in a more
+secure and neat way.We can also put any piece of code that we
+want to execute when the object of a class is created.
+
+Why should we use constructors?
+1) They help us write more secure classes
+2) Cleaner code
+3) More control over the values that we can assign to the instance fields
+
+Syntax:
+1)Usually public access modifier
+2) Same name as class name
+3)No return type and not void
+4) Parameters
+5) Body of constructor
+
+Rules
+"this" keyword should be used where there is a conflict.
+The keyword "this" does not work with static variables.
