@@ -1,0 +1,26 @@
+Method overloading:
+    Happens when multiple methods have the same name but different parameters. This includes the following.
+    1) Number of parameters e.g., print("car", "bicycle"), print("car", "bicycle", "motor cycle")
+    2) Different data type, e.g., print("car"), print(34)
+    3) Different sequence of parameters, e.g., print(12,"car"), print("car", 12)
+
+Signature of a method:
+The name of the method and the enclosed parameters in parentheses is also called the signature of the method.
+
+Header of a method:
+Header of a method includes its signature, return type, plus access modifier.
+ Why we should learn about methods
+
+
+ Topics to revise for Selenium
+ Classes and objects
+ Methods
+ String methods
+ loops
+ if-else
+
+ Method overriding
+ Happens when the same name method is present in parent as well as in the child class.
+
+
+
