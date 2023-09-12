@@ -1,0 +1,106 @@
+Types of variables
+    With respect to scope, there are three types of variables.
+    local
+    instance
+    static
+
+ Local variables:
+    Declared inside a block of code are called local variables.
+    For example, all the variables that we declare inside the if-else statements,loops, switch case,
+    constructors, methods,
+
+    Upside:
+    They occupy the memory for a short period of time and, as soon as the
+    block of code is done executing, they are removed from memory.
+
+    Downside:
+    They cannot be accessed outside the block of code(they have limited scope)
+
+    When we shd use local variables:
+    Always go for local variables whenever possible.
+
+Instance variables
+These are declared inside a class and outside of a block (i.e.,
+they are declared outside of blocks such as if else, switch statements,for loops, etc).
+
+     Downside:
+     Occupy memory for longer than local variables
+     Cannot be reinitialized inside a class
+     Cannot be accessed inside static methods
+     Static methods are not tied to any specific instance;
+     They belong to the class and have class-level scope and lifetime.
+     When you call a static method, there may not even be an instance of the class in existence.
+     Therefore, static methods have no direct access to instance-specific data.
+
+     Upside:
+     They can be accessed anywhere within the class regardless of when they were created within your block of code (they are bidirectional).
+     When to use instance variables:
+     Go for instance variables if we want to create something across all instance methods.
+     When we are planning to create multiple objects from a class and every object might have diff value.
+
+ Instance variables with a static keyword are called static variables.
+They can be accessed from anywhere in the project if they are declared with a static keyword.
+
+Static methods.
+    These are methods declared with static keyword
+
+    Upside
+    Can be created by simply writing the class name. Can be accessed
+    anywhere if combined with proper access modifiers.
+
+    Downside
+    We cannot override them which means we cannot write dynamic code.
+
+    When to use static methods.
+    When we want to access them without creating an object.
+    e.g., when writing classes that will be used in mathematical calculation.
+===========================================================================
+Constructors
+A special type of method which is used to give initial
+values to fields/instance/properties/attributes.
+The also help us to build objects more easily.
+
+Rules of constructors:
+    1)They don't have return type
+    2)The have same name as the class
+    3)Cannot use a static keyword with constructor. We would not be able to access instance fields
+    4)We cannot use final keyword in constructors as constructors cannot be overriden by subclasses by default.
+    5)We can use the return keyword with constructors.
+
+Why we need constructors
+clearer code
+secure code by preventing illegal modification of fields
+
+The this keyword:
+We can this keyword mainly to eliminate confusion between instance attributes and parameters.
+We can also use this keyword to call constructors when we want to avoid code duplication when initialising variables.
+
+Syntax for this keyword:
+this.variable=variable ==> referring to te current variable in the constructor.
+this() ==> Calling a constructor.
+
+Inheritance:
+It is one of the main pillars in OOPs.
+It allows us to build classes using other classes
+so we don't repeat code. extends is the keyword that we use to inherit the fields and methods from
+another class.
+
+Why inheritance
+Code re-usability
+
+Rules of inheritance:
+   1) Private members(fields, methods) cannot be used in child/derived classes.
+   2) Constructors are not inherited automatically.
+   3) Inheritance is one way from parent to child.
+
+ Disadvantages
+ Tight coupling: If we change anything in the parent, it might introduce errors in
+ all child classes.
+
+
+
+
+
+
+
+

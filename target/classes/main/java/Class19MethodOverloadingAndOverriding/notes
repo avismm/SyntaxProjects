@@ -9,7 +9,9 @@ The name of the method and the enclosed parameters in parentheses is also called
 
 Header of a method:
 Header of a method includes its signature, return type, plus access modifier.
- Why we should learn about methods
+
+ Why we should learn about method overloading
+    1)Helps to write simpler and easy to read code
 
 
  Topics to revise for Selenium
