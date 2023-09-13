@@ -1,6 +1,6 @@
 package Class17Inheritance;
 
-import Class18InheritenceAndSuperKeyword.Bike;
+import Class18Inheritence.Bike;
 
 public class HondaBikeUsingProtectedKeyword extends Bike {
     void printInfo(){
