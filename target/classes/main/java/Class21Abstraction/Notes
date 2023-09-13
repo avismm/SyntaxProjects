@@ -1,0 +1,21 @@
+Abstraction is a process of hiding implementation details and showing only
+the functionality to the end user.
+We use the abstract keyword with methods to avoid the implementation
+details.
+
+Why should we use abstraction
+    1) Flexibility. No need provide implementation details if we don't want to
+    2) Improves maintainability of the system.
+    2) Combining it with other concepts such as encapsulation and
+    polymorphism to make OOP more powerful.
+
+Rules
+    1) We cannot create the objects of the abstract classes.
+    2) All the child classes must provide the implementation to the
+    abstract methods which are coming from the parent, or mark the child
+    class abstract.
+    3) Abstract classes can also have fully implemented methods
+    4) We can have instance or static fields in an abstract class.
+    5) Constructors are also allowed.
+
+Note: Classes which are not abstract are called concrete classes

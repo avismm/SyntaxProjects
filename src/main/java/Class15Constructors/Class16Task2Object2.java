@@ -1,6 +1,6 @@
 package Class15Constructors;
 
-import Class16.Task2;
+import Class16Constructors.Task2;
 
 public class Class16Task2Object2 {
     public static void main(String[] args) {
