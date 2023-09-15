@@ -21,8 +21,8 @@ public class Car {
         System.out.println(make+" "+model+" "+color);
     }
 }
-class BMW extends Car{
-public BMW(String make, String model, String color, double price){
+class BMWSuperKeyword extends Car{
+public BMWSuperKeyword(String make, String model, String color, double price){
 
     /*calling the constructor from the parent class
     to initialize the instance fields of the parent class*/

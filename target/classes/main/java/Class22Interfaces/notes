@@ -1,0 +1,22 @@
+Interface
+    Interfaces are like contracts. In which we define abstract methods
+    which the classes have to implement. They can also have public static
+    final variables.
+
+  Why interfaces?
+  1) Specifically designed for abstraction
+  2) Light weight as compared to abstract classes
+  3) We can achieve multiple inheritance in interfaces
+  4) There is no diamond problem when having multiple inheritance
+  5) Helps us build things in a modular way can be used with classes
+  even if they are not closely related.
+
+ Rules
+ 1) Interfaces don't have instance methods but can have static methods
+ 2) No instance fields are allowed because all fields inside an interface
+ are public, static and final.
+ 3) This means we cannot have constructor since there are no instance fields.
+ 4) Cannot create objects of an interface since they cannot be constructors.
+ 5) Can't use final keyword with interfaces because they are abstract by default.
+ 7) We can have multiple inheritance as there is no diamond problem.
+ 8) We use implements keyword when we have to implement interfaces

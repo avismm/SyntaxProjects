@@ -12,7 +12,7 @@ Why should we use abstraction
 Rules
     1) We cannot create the objects of the abstract classes.
     2) All the child classes must provide the implementation to the
-    abstract methods which are coming from the parent, or mark the child
+    abstract methods which are coming from the parent, or we must mark the child
     class abstract.
     3) Abstract classes can also have fully implemented methods
     4) We can have instance or static fields in an abstract class.
