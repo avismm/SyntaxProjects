@@ -44,7 +44,7 @@ class EmployeePerson extends Person {
     }
 
     /*The printInfo method in this subclass overrides the printInfo method
-    defined in the parent Person*/
+    defined in the parent Person*/ 
     public void printInfo(){
        System.out.println(firstName+" "+lastName+" "+age+" "+salary);
     }
