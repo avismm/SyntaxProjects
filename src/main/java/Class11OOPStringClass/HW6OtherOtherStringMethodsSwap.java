@@ -1,7 +1,7 @@
 package Class11OOPStringClass;
 //How would you swap  2 strings without a temporary variable?
 
-public class HW6OtherOtherStringMethods {
+public class HW6OtherOtherStringMethodsSwap {
     public static void main(String[] args) {
         String str1="Hi2bDa34%%%HHDu";
         String str2="ABCetrt%";

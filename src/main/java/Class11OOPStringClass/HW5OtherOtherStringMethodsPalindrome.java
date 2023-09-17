@@ -5,13 +5,13 @@ package Class11OOPStringClass;
 public class HW5OtherOtherStringMethodsPalindrome {
     public static void main(String[] args) {
         String word="aba";
-        String reverseedWord="";
+        String reversedWord="";
         for (int i = word.length()-1; i >=0 ; i--) {
-            reverseedWord=reverseedWord+word.charAt(i);
+            reversedWord=reversedWord+word.charAt(i);
 
         }
-        System.out.print(reverseedWord);
-        System.out.println(" Is palindrome?: "+ reverseedWord.equals(word));
+        System.out.print(reversedWord);
+        System.out.println(" Is palindrome?: "+ reversedWord.equals(word));
 
     }
 
