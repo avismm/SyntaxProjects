@@ -1,0 +1,59 @@
+Collections Framework
+
+Collections framework is just a collection of classes and interfaces which contain useful methods that we can
+use to store and manipulate large amounts of data.
+
+Why the collections framework?
+Arrays and variables are not good for storing and manipulating large amounts of data
+as arrays are
+1) Fixed in size
+2) There are no built in methods in arrays
+
+When we should use Arrays
+Arrays are still useful. ArrayLists are build using arrays under the hood
+Arrays are fast and very space efficient when we know the size of something in advance.
+
+Wrapper Classes
+They are object types for primitive data types. For every primitive data type, there is a corresponding wrapper class.
+
+Why wrapper classes
+1)We can treat them in the same way as we treat other objects. We can call their methods,
+which is not possible with primitive data types.
+2) Collections framework works only with classes which means we cannot use primitives.
+
+ArrayLists:
+Data is stored in consecutive memory locations. Meaning accessing this data is easier.
+However, if we have to add something in-between later on, we must shift the data
+
+LinkedLists
+No actual data is moved between elements. Only the elements adjust themselves based on the new
+memory locations that are either created or removed.
+Data is not stored in consecutive memory locations meaning it is hard and slow to find
+and access the data as we must go through all the elements which are present before it.
+
+But adding and removing elements from in-between will be super easy as we just need to
+re-adjust the links.
+
+Interview questions
+90% the operations are retrieving the stored data and 10% adding or removing the data
+elements. Which data structure would you prefer.
+Answer: ArrayList as it is faster and easier to retrieve the data.
+
+Sets:
+A Set is an interface in collections framework. There are three main classes which implement this
+interface. They are called 1) HashSet 2)LinkedHashSet 3)TreeSet. One thing is common in all these classes.
+i.e., they do not allow duplicate elements
+
+HashSet:
+Upside: It is fast
+Downside: It does not maintain the insertion order
+
+LinkedHashSet:
+Upside: Maintains the insertion order
+Downside: less fast as the computer has to maintain the insertion order. i.e., slower than HashSet
+
+TreeSet:
+Upside: Sorts the data
+Downside: Slowest of all classes
+
+

@@ -5,6 +5,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class SeleniumDemo {
     public static void main(String[] args) throws InterruptedException {
         ChromeDriver chrome =new ChromeDriver();
+        chrome.manage().window().maximize();
         chrome.navigate().to("https://google.com");
         Thread.sleep(10000);
         chrome.navigate().to("https://amazon.com");

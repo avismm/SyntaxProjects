@@ -19,7 +19,6 @@ public class E6Selenium {
         Thread.sleep(2000);
         chrome.navigate().back();
         chrome.close();
-
         EdgeDriver edgeDriver=new EdgeDriver();
         chrome.manage().window().maximize();
         Thread.sleep(2000);

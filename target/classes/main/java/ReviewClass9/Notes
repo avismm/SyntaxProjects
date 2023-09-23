@@ -1,0 +1,42 @@
+Polymorphism
+    It is the ability of the object to behave differently
+    We can achieve it in two ways; Method overriding and method overloading
+
+    Example
+    WedDriver webdriver =new ChromeDriver();
+
+    Interview question:
+        Do we need overriding for polymorphism
+        Yes but we can also do this using method overloading
+
+    Abstraction:
+        This is a process of hiding implementation details
+        and showing only the functionality.
+        We can achieve this through abstract classes and interfaces.
+        We must provide implementation of the abstract methods.
+
+    Why:
+    it simplifies our code. Those classes which don't need to
+    provide the implementation to the methods can leave it.
+
+    Interview Questions:
+    1) Can we have private methods as abstract.
+    No. It would ne a contradiction as abstract methods
+    always require an implementation.
+
+    2) Can we have a method as final and abstract at the same time.
+    Final means that something is complete and doesn't require modification.
+    So we cannot have final and abstract method at the same time as abstract methods
+    require implementation.
+
+
+   Interfaces:
+   A collection of public static final variables and methods
+   which are by default abstract. After Java 8, can have default
+   static and private methods as well.
+
+   Why interfaaces:
+   There is no diamond problem in interfaces and this allows multiple
+   inheritance.
+   They are light weight simple contracts and can be
+   used even when classes are not related to each other.
