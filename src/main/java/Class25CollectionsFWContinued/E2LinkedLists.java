@@ -20,5 +20,6 @@ public class E2LinkedLists {
         numbers.removeIf(x->x<40);
         numbers.removeIf(x->x%2==0);
         System.out.println(numbers);
+
     }
 }

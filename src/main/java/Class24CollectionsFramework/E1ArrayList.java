@@ -14,5 +14,8 @@ public class E1ArrayList {
         System.out.println(names);
         names.set(1,"James");
         System.out.println(names);
+        System.out.println(names.get(1));
+        names.clear();
+
     }
 }

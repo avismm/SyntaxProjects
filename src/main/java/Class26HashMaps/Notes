@@ -1,0 +1,28 @@
+Maps:
+These are data structures that store key value pairs.
+There are different types of maps in Java but we will discuss
+1) HashMap
+2) LinkedHashMap
+3) TreeMap
+4) HashTable ==> Not as common lately.
+Note: Maps are not part of the collections framework.
+Map is the name of the interface. HasMap, LinkedHashMap, TreeMap and HashTable
+are the classes that implement this interface.
+
+Why we learn about maps:
+All the other data structures that we have learned can only store one value at a time
+and they are indexed. Maps allow storing of key value pairs which makes them a better choice
+because we know what we are storing.
+
+Syntax for Maps:
+nameOfTheClass<dataTypeOfKey, dataTypeofValue> variableName=new nameOfTheClass<>();
+syntax example:
+HashMap<String, double> fruits=new HashMap<>();
+Note: Keys cannot have duplicates but values can have duplicates
+
+Maps are collections of entries and entries are collections of key value pairs. Maps themselves do not contain key value pairs.
+
+
+
+
+
