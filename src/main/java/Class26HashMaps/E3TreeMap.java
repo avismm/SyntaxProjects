@@ -17,6 +17,10 @@ public class E3TreeMap {
         makeUp.put("Concealer", 9.1);
         System.out.println(makeUp);
         //System.out.println(makeUp.keySet());
+
+        /*retrieving the values (makeup prices) from the TreeMap using the values() method,
+        which returns a collection of all values (in this case, makeup prices) and printing
+        the collection of values to the console.*/
         Collection<String> keys=makeUp.keySet();
         System.out.println(keys);
         Collection<Double> values=makeUp.values();

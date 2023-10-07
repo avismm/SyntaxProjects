@@ -1,0 +1,37 @@
+File?
+A file is something that we use to store information.
+1) For example, text files are used to store raw data
+2) pdf files used to store books and files
+3) To store info in form of a table
+4 .jpg .jpeg .png files are used to store images
+5) .mp4, mkv .mov are used for storing videos
+
+Why we use files
+It is easier to move information around as it is just one single file
+
+Folders or directories
+These are like containers for files. They can contain many files
+We use it to organize information.
+
+File handling:
+Involves creating, editing, accessing or deleting files on ea computer with a help of
+a programming language.
+
+Steps to work with files
+        1) To locate the file. We use the absolute path. e.g., C:/users/syntax/names.txt
+        2) We need to have access and a piece of software that can edit/open the file
+        3) TO bring the file from permanent storage to the RAMM
+RAM
+Temporary storage. It is fast but does not store data permanently. When computer is turned off, the data is lost.
+
+What is HSS/SSD/NVME/Storage
+This is the permanent storage. It is cheap and slow.
+
+WHy we learn about file handling
+    1) So that we can store the data permanently
+    2) We can store sensitive data like username and passwords inside the files and keep them secure on your computers.
+    This info should not be pushed to github.
+    3) All the config infor like urls and types of testing will be stored in the files
+
+
+

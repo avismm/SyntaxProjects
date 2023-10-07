@@ -16,7 +16,6 @@ public class E7LinkedHashSet {
         uniqueNumbers.add(90);
         uniqueNumbers.add(32);
         uniqueNumbers.add(10);
-
         uniqueNumbers.forEach(x-> System.out.print(x+" "));
         System.out.println();
         for(Integer n:uniqueNumbers){
