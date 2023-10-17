@@ -1,0 +1,20 @@
+Sets are data structures that do not allow duplicate elements
+Set is the main interface and there are three main classes which implement this interface.
+HashSet
+LinkedHashSet
+TreeSet
+
+HashSet:
+       Fastest of all but does not remember insertion order
+
+LinkedHashSet
+       Maintains insertion order but it slower than HashSet.
+
+TreeSet.
+       Returns the data in sorted order.
+       However, insertion is quite slow as elements have to be moved and resorted.
+       TreeSet is faster when retrieving data.
+
+Maps.
+       Map is an interface that allows us to store key value pairs.
+

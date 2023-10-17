@@ -1,0 +1,18 @@
+Files
+    These are entries/objects that we use to store data permanently
+
+File handling
+    Reading /writing/managing the files using code is called file handling
+
+As a tester.properties file Excel files sometimes .csv files as we store configuration related data
+in .properties file. For example usernames, passwords, urls, browser name,
+on which testing will be carried out.
+
+What data do we store in excel?
+    We store results of testing
+    We store the data related to the web forms inside excel. Normally done when we need allot of data.
+
+Steps to work with a file
+1) Location/path of the file in the computer
+2) Bring the data from the file into RAM
+3) Specific software/classes which understands how the file works
